@@ -1,0 +1,21 @@
+{
+  "name": "only_js_examples",
+  "version": "1.0.0",
+  "description": "Ejercicios practicos JavaScript",
+  "main": "index.html",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DalexFS/only-JavaScript"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "DalexFS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DalexFS/only-JavaScript/issues"
+  },
+  "homepage": "https://github.com/DalexFS/only-JavaScript#readme"
+}
