@@ -48,13 +48,13 @@ body {
   padding-left: 200px;
 }
 .home__left h1 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    color: var(--primary-color);
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
 }
-.home__left p{
-    font-size: 20px;
-    margin-bottom: 20px;
+.home__left p {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 .home__right {
   width: 40%;
@@ -112,28 +112,29 @@ body {
   }
 }
 
-.about{
+.about {
   height: 100vh;
   padding: 20px;
   text-align: center;
   color: var(--text);
 }
 
-.about__content{
+.about__content {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
-  margin-top: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 100px;
   padding: 20px;
 }
-.details h3,span{
+.details h3,
+span {
   font-weight: bold;
   margin: 20px 0;
 }
-.details p{
+.details p {
   margin: 20px 0;
 }
 
-.profile img{
+.profile img {
   margin-top: 30px;
   width: 300px;
   height: 300px;
@@ -141,36 +142,40 @@ body {
   border-radius: 100%;
 }
 
-.description p{
+.description p {
   font-style: italic;
   margin-top: 20px;
-
 }
-
-.social ul{
+.social {
+  margin-left: 50px;
+}
+.social ul {
   display: flex;
   justify-content: center;
   padding: 30px;
   list-style: none;
 }
 
-.social ul > li > a{
+.social ul > li > a {
   font-size: 40px;
   margin-right: 20px;
   box-shadow: 0px 1.5px 0px var(--text);
   color: var(--text);
 }
-.social li{
+.social li {
   animation: jump 2s alternate infinite;
 }
-@keyframes jump{
-  from{
+@keyframes jump {
+  from {
     transform: translate(0, -0px);
   }
-  to{
+  to {
     transform: translate(0, -20px);
   }
 }
-.footer{
+.examples {
+  padding: 20px;
+}
+.footer {
   padding: 20px;
 }
